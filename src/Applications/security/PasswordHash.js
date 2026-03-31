@@ -3,10 +3,11 @@ class PasswordHash {
     throw new Error("PASSWORD_HASH.METHOD_NOT_IMPLEMENTED");
   }
 
-  // Biasanya Anda juga akan butuh method ini nantinya untuk login
+  // Siapkan juga method ini untuk fitur login nantinya
   async comparePassword(plain, encrypted) {
     throw new Error("PASSWORD_HASH.METHOD_NOT_IMPLEMENTED");
   }
 }
 
-module.exports = PasswordHash;
+// Ubah baris ini menggunakan sintaks ES Modules
+export default PasswordHash;

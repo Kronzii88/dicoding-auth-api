@@ -12,4 +12,4 @@ class BcryptPasswordHash extends PasswordHash {
   }
 }
 
-module.exports = BcryptPasswordHash;
+export default BcryptPasswordHash;
